@@ -245,10 +245,13 @@ iframe {
 
 .photos {
     display: flex;
-    height: fit-content;
+    align-items: center;
+    justify-content: center;
     line-height: 0;
     margin: 10px auto;
 }
+
+
 
 .photo {
     width: 50%;
@@ -639,8 +642,10 @@ input[type=range] {
     }
 
     .photos {
+        display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 
     .photo {
