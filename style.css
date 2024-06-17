@@ -231,6 +231,7 @@ button {
 
 
 .contact {
+    width: 60%;
     border: 2px dotted var(--dark-pink);
     padding: 10px;
     text-align: center;
@@ -254,7 +255,7 @@ iframe {
 
 
 .photo {
-    width: 50%;
+    width: 60%;
     aspect-ratio: 1/1;
     position: relative;
 }
@@ -643,13 +644,13 @@ input[type=range] {
 
     .photos {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     .photo {
-        width: 50%;
+        width: 60%;
     }
 
 
