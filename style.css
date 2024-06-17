@@ -1,7 +1,7 @@
 *, html {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+  
     overscroll-behavior: none;
     cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat792.cur), auto !important;
     /* cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat794.cur), auto !important; */
@@ -668,7 +668,16 @@ input[type=range] {
     padding-right: 0;
  }
 
+ .linksblad img,  .rechtsblad img {
+    border: 1px solid var(--dark-pink);
+    
+ }
+
  .rechtsblad {
     align-items:flex-end;
     padding-left: 0;
+ }
+
+ .linksblad img {
+    border-right: 0;
  }
