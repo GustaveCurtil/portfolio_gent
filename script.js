@@ -25,7 +25,6 @@ rechtsblad.addEventListener('click', e => {
         pagina += 2;
         updatePagina(pagina);
     }
-    console.log(pagina)
 })
 
 linksblad.addEventListener('click', e => {
@@ -33,7 +32,6 @@ linksblad.addEventListener('click', e => {
         pagina -= 2;
         updatePagina(pagina);
     }
-    console.log(pagina)
 })
 
 function updatePagina(pagina){
