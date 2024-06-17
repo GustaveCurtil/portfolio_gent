@@ -680,4 +680,5 @@ input[type=range] {
 
  .linksblad img {
     border-right: 0;
+    opacity: 0;
  }

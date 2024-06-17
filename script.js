@@ -39,13 +39,13 @@ function updatePagina(pagina){
         linksblad.style.opacity = '0';
         rechtsblad.src = "portfolio/Portfolio Gustave Curtil_page-000" + (pagina + 1) + ".webp";
     } else if (pagina < 10) {
-        linksblad.style.opacity = '1';
         linksblad.src = "portfolio/Portfolio Gustave Curtil_page-000" + pagina + ".webp";
         rechtsblad.src = "portfolio/Portfolio Gustave Curtil_page-000" + (pagina + 1) + ".webp";
-    } else {
         linksblad.style.opacity = '1';
+    } else {
         linksblad.src = "portfolio/Portfolio Gustave Curtil_page-00" + pagina + ".webp";
         rechtsblad.src = "portfolio/Portfolio Gustave Curtil_page-00" + (pagina + 1) + ".webp";
+        linksblad.style.opacity = '1';
 
     } 
 }
