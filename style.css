@@ -115,7 +115,7 @@ nav {
 main {
     display: none;
     width: 100%;
-    height: calc(100svh - 95px);
+    height: calc(100svh - 65px);
 
     background-color: var(--background-white);
 
